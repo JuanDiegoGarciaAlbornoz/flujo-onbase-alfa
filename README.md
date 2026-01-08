@@ -1,3 +1,4 @@
+```mermaid
 graph TD
   Start((Inicio)) --> AuthOB[Autenticación API OnBase<br/>(Obtener Token)]
   AuthOB --> GetCases[Descargar Casos para Transacciones]
@@ -34,3 +35,4 @@ graph TD
 
   AssignMed --> End((Fin))
   Manual --> End
+
